@@ -2,13 +2,29 @@
 
 # Overview 📚
 
-A quick project for migrating data from REST API to MySQL database
+A project for migrating data from REST API to MySQL database.
 
+Sent HTTP requests to a REST API endpoint, formatted the data into a clean, tabular structure, and loaded them into a MySQL database using Python once again.
 
-## Resources 🎁
+# Objective🎯
+We want to display an up-to-date list of the English Premier League’s top goal scorers in a way that is easy for any football fanatic to understand at a quick glance.
 
-- **[Blog](https://medium.com/@sdw-online/rest-api-to-mysql-database-using-python-eb7b4606d6c3)** 
-- **[YouTube](https://www.youtube.com/@sdw-online)** 
-- **[TikTok](https://www.tiktok.com/@sdw.online)** 
-- **[LinkedIn](https://www.linkedin.com/in/stephen-david-williams-860428123/)** 
-- **[Twitter/X](https://twitter.com/sdw_online)**
+This helps a football enthusiast stay updated on their favorite goal scorers, compare them to other goal scorers, and even observe any exciting trends over the course of the season.
+
+# Technologies Used⚙️
+os
+pandas
+requests
+python-dotenv
+MySQL-connector-python
+
+# Error handling🚨
+I added error-handling mechanisms for
+
+API connection errors
+HTTP request issues
+timeouts
+other potential errors
+
+# Key takeaway🔑
+It is possible to load data from a REST API into an RDBMS database by combining Python and SQL together instead of using one over the other
