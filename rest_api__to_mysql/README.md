@@ -12,19 +12,10 @@ We want to display an up-to-date list of the English Premier League’s top goal
 This helps a football enthusiast stay updated on their favorite goal scorers, compare them to other goal scorers, and even observe any exciting trends over the course of the season.
 
 # Technologies Used⚙️
-os
-pandas
-requests
-python-dotenv
-MySQL-connector-python
+os, pandas, requests, python-dotenv, MySQL-connector-python
 
 # Error handling🚨
-I added error-handling mechanisms for
-
-API connection errors
-HTTP request issues
-timeouts
-other potential errors
+I added error-handling mechanisms for API connection errors, HTTP request issues, timeouts & other potential errors.
 
 # Key takeaway🔑
-It is possible to load data from a REST API into an RDBMS database by combining Python and SQL together instead of using one over the other
+It is possible to load data from a REST API into an RDBMS database by combining Python and SQL together instead of using one over the other.
